@@ -42,3 +42,7 @@ nav {
   color: white;
   padding: 20px;
 }
+footer{
+  height: 200px;
+  background-color: rgb(81, 37, 37);
+}
