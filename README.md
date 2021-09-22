@@ -5,7 +5,7 @@ Here is a working live demo :  https://wdmuthiora.github.io/
 
 
 ## Site.
---
+With the ravaging pandemic there has been a shift of services from the physical to remote thus the birth of Afya Pap. Afya Pap seeks to provide professional medical services to expectant women ,people suffering from mental health issues and general medical information. Our website lists out various qualified doctors around your area and beyond that are ready to offer their services. 
 
 ### Development.
 Want to contribute? Great!
