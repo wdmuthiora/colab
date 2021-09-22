@@ -34,6 +34,11 @@ nav {
   text-align: center;
   border: 1px solid black;
   margin: 10px;
-  background-color: #728EF0;
+  background-color: #9ea9cd;
   border-radius: 0 0 30% 30%;
+}
+.motto > h3 {
+  background-color: rgb(98, 98, 159);
+  color: white;
+  padding: 20px;
 }
