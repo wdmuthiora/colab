@@ -18,3 +18,22 @@ nav {
   color: black;
   padding: 150px;
 }
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.section {
+  margin-top: 20px;
+}
+.section > h2 {
+  text-align: center;
+}
+.service1 {
+  height: 350px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #728EF0;
+  border-radius: 0 0 30% 30%;
+}
