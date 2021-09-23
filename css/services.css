@@ -39,6 +39,9 @@
   color: white;
   border-radius: 0 0 30% 30%;
 }
+.service1>ul{
+  text-align: left;
+}
 .motto > h3 {
   background-color: rgb(98, 98, 159);
   color: white;
