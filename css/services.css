@@ -1,9 +1,9 @@
-nav {
+/* nav {
   background-color: beige;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+} */
 .institution {
   color: blue;
 }
@@ -27,6 +27,7 @@ nav {
 }
 .section > h2 {
   text-align: center;
+  color: black;
 }
 .service1 {
   height: 350px;
@@ -35,6 +36,7 @@ nav {
   border: 1px solid black;
   margin: 10px;
   background-color: #9ea9cd;
+  color: white;
   border-radius: 0 0 30% 30%;
 }
 .motto > h3 {
@@ -42,7 +44,7 @@ nav {
   color: white;
   padding: 20px;
 }
-footer{
+/* footer{
   height: 200px;
   background-color: rgb(81, 37, 37);
-}
+} */
