@@ -29,26 +29,16 @@
                                             <a class="nav-link" href="index.html">Home</a>
                                         </li>
                                         <li class="nav-item ">
-                                            <a class="nav-link" href="departments.html">Departments</a>
+                                            <a class="nav-link" href="services.html">Services</a>
                                         </li>
                                         <li class="nav-item ">
                                             <a class="nav-link" href="doctors.html">Doctors</a>
                                         </li>
-                                        <li class="nav-item submenu dropdown">
-                                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="about.html">About</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="services.html">Services</a>
-                                                </li>
-
-                                            </ul>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="about.html">About</a>
                                         </li>
-
                                         <li class="nav-item">
-                                            <a class="nav-link" href="contact.html">Contact</a>
+                                            <a class="nav-link" href="#contact">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -59,24 +49,24 @@
     </header>
     <div class="findd">
         <div class="textd">
-            <p id="find">FIND A DOCTOR & BOOK ONLINE</p>
-            <p>We are here to serve you</p>
-            <p>Want to receive notifications of doctors around you?</p>
-            <p>Enter your details down below</p>
+            <h2 id ="find">FIND A DOCTOR & BOOK ONLINE</h2><br>
+            <h6>We are here to serve you</h6>
+            <h6>Want to receive notifications of doctors around you?</h6>
+            <h4>Enter your details down below</h4>
             <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                  <input type="text" id="name"class="form-control" placeholder="First name" aria-label="First name">
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                 <input type="text" id="name"class="form-control" placeholder="Last name" aria-label="Last name">
                 </div>
             </div><br>
             <div class="col-12">
-                <input type="text" class="form-control" placeholder="marieann1@gmail.com/yahoo" aria-label="email">
+                <input type="text" id="email"class="form-control" placeholder="marieann1@gmail.com/yahoo" aria-label="email">
               </div><br>
-            <p id="customize">Enter your address</p>
-        <form class="row g-3">
-                <label for="inputCounty" class="form-label">County</label>
+            <h4 >Enter your address</h4>
+            <form class="row g-3">
+                <label for="inputCounty" id="county" class="form-label">County</label>
                 <select id="inputCounty" class="form-select">
                     <option selected>Choose...</option>
                     <option>Kisumu</option>
@@ -94,13 +84,16 @@
               <input type="text" class="form-control" id="inputAddress2" placeholder="Gaikuyu Lane">
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" id="buttono" onclick="alert('Hello.Thank you for contacting Health Space. We will get back to you shortly!')" class="btn btn-primary">SUBMIT</button>
+            </div>
+            <div class="col-12">
+              <button type="book" id="buttono" class="btn btn-primary"><a href="./about.html">BOOK AN APPOINTMENT</a></button>
             </div>
         </form>
         </div>
         <div class="imaged">
             <div class="card">
-                <img src="assets/doc2.jpeg" class="card-img-top" alt="...">
+                <img src="assets/newdoc.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">We are here to serve you</h5>
                 </div>
@@ -108,7 +101,7 @@
         </div>
     </div><br><br>
     <div class="docs">
-        <p id="browse">Browse Doctors</p>
+        <h2 id="browse">Browse Doctors</h2>
         <div class="card-group">
             <div class="card">
               <img id="doc" src="assets/doc1.jpeg" class="card-img-top" alt="...">
