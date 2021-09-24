@@ -20,7 +20,9 @@
 }
 .services {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .section {
   margin-top: 20px;
@@ -32,12 +34,14 @@
 .service1 {
   height: 350px;
   width: 400px;
+  padding-top: 50px;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid transparent;
   margin: 10px;
-  background-color: #9ea9cd;
+  background-color: #a7c6e6;
   color: white;
-  border-radius: 0 0 30% 30%;
+  /* border-radius: 0 0 0% 30%; */
+  overflow-y: scroll;
 }
 .service1>ul{
   text-align: left;
@@ -47,7 +51,7 @@
   color: white;
   padding: 20px;
 }
-/* footer{
-  height: 200px;
-  background-color: rgb(81, 37, 37);
-} */
+footer{
+  height: auto;
+  /* background-color: rgb(81, 37, 37); */
+}
